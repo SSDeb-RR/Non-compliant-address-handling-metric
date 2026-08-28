@@ -1,0 +1,920 @@
+{
+  "total_cases": 45,
+  "matches": 43,
+  "mismatches": 2,
+  "accuracy": 0.9555555555555556,
+  "results": [
+    {
+      "case_id": "source_001",
+      "call_started_at_ist": "2026-08-04 09:49:31",
+      "call_id": "c543d569-4f7a-4f69-afd1-8ee2c2a650b8",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_002",
+      "call_started_at_ist": "2026-08-06 09:59:49",
+      "call_id": "8c4d5ff6-8470-40fa-8cb8-9f4e51bf1f5e",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_003",
+      "call_started_at_ist": "2026-08-06 10:54:26",
+      "call_id": "b81ae68b-9d6a-41e5-a9c4-f521cf89f69b",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_004",
+      "call_started_at_ist": "2026-08-06 12:32:19",
+      "call_id": "6450b239-6819-40f7-8a0a-7df58da3344d",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_005",
+      "call_started_at_ist": "2026-08-06 14:25:22",
+      "call_id": "1a31f672-552b-4121-b3bd-bd1e2c1a1219",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_006",
+      "call_started_at_ist": "2026-08-06 14:35:26",
+      "call_id": "69563c2e-e084-4d43-b559-5f78863d4e57",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_007",
+      "call_started_at_ist": "2026-08-06 14:46:28",
+      "call_id": "a5077eac-f982-48f2-91c3-38ae258806ec",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_008",
+      "call_started_at_ist": "2026-08-06 15:42:52",
+      "call_id": "6bccfc21-d70d-42cd-890e-ca880360dc32",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_009",
+      "call_started_at_ist": "2026-08-06 16:19:26",
+      "call_id": "8e389b01-b34d-4ef0-8cb5-99fbdb6fbaa6",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_010",
+      "call_started_at_ist": "2026-08-06 16:26:34",
+      "call_id": "81af3afb-8ac6-403a-a62f-8f34201a9769",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_011",
+      "call_started_at_ist": "2026-08-06 16:31:31",
+      "call_id": "343f9374-89ad-476a-a1f6-940cef9a61eb",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_012",
+      "call_started_at_ist": "2026-08-06 16:41:34",
+      "call_id": "7498a23c-5784-4c40-ae97-e5a6cc0a366b",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_013",
+      "call_started_at_ist": "2026-08-06 16:50:44",
+      "call_id": "919e3a1a-0d79-4a8a-8260-c542960e42e9",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_014",
+      "call_started_at_ist": "2026-08-07 10:35:06",
+      "call_id": "a490c9f8-6f79-415d-928f-f0e78d3caac3",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_015",
+      "call_started_at_ist": "2026-08-07 11:20:43",
+      "call_id": "d11a963f-5038-4a39-afff-3aee34970443",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_016",
+      "call_started_at_ist": "2026-08-07 11:31:42",
+      "call_id": "b796b916-78d2-4b14-861c-ccb59457ec55",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_017",
+      "call_started_at_ist": "2026-08-07 11:41:26",
+      "call_id": "cbace832-aa4f-4d94-bdb6-44ff9e8522d2",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_018",
+      "call_started_at_ist": "2026-08-07 12:27:21",
+      "call_id": "a8e626af-3666-4f7f-abf3-c8e0d01d0ac3",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_019",
+      "call_started_at_ist": "2026-08-07 12:43:34",
+      "call_id": "9bbd89c7-3976-414f-8cc9-33bf3711b682",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_020",
+      "call_started_at_ist": "2026-08-07 12:43:43",
+      "call_id": "b668463f-dbad-4cc5-a98f-0358956e2505",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_021",
+      "call_started_at_ist": "2026-08-07 12:46:27",
+      "call_id": "6e6ac945-6de5-47d6-afbd-8fac04fc364f",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_022",
+      "call_started_at_ist": "2026-08-07 12:55:21",
+      "call_id": "c310064c-7ea7-4774-9076-ba4ae9f3630d",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_023",
+      "call_started_at_ist": "2026-08-07 12:56:27",
+      "call_id": "421455c8-fd0d-4547-bc43-d4e8c862c43c",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_024",
+      "call_started_at_ist": "2026-08-20 09:08:03",
+      "call_id": "747cbeff-4d31-42bb-b103-36f73aba52d1",
+      "ground_truth_metric_result": "fail",
+      "expected_binary_output": "true",
+      "actual_output": "false",
+      "match": false,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_025",
+      "call_started_at_ist": "2026-08-20 09:43:32",
+      "call_id": "3dca27ff-c995-4cae-8e6a-1362e049a50a",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_026",
+      "call_started_at_ist": "2026-08-20 09:52:19",
+      "call_id": "bfee9ca7-19be-45ac-bf9c-b91f90858af6",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_027",
+      "call_started_at_ist": "2026-08-20 11:59:33",
+      "call_id": "f6180ab2-275c-4aab-aa0e-d689dae83590",
+      "ground_truth_metric_result": "pass",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_028",
+      "call_started_at_ist": "2026-08-20 12:20:23",
+      "call_id": "be7578ae-9154-494d-a3af-030d8117882c",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_029",
+      "call_started_at_ist": "2026-08-20 13:38:32",
+      "call_id": "a9eda49d-e945-45ae-95ee-acd1a3a0b9d1",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_030",
+      "call_started_at_ist": "2026-08-20 15:14:30",
+      "call_id": "1747d47e-d994-4a3f-902d-1d73853cc9a2",
+      "ground_truth_metric_result": "fail",
+      "expected_binary_output": "true",
+      "actual_output": "false",
+      "match": false,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_031",
+      "call_started_at_ist": "2026-08-20 15:46:04",
+      "call_id": "7caa2fdb-19c5-42d8-859a-f7dea6311ed9",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_032",
+      "call_started_at_ist": "2026-08-24 09:40:16",
+      "call_id": "f69e5a30-6b5e-4a20-ad3f-a49cf07e55eb",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_033",
+      "call_started_at_ist": "2026-08-24 10:57:27",
+      "call_id": "405a2129-3359-4fd1-a6a7-36b53cd8dc65",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_034",
+      "call_started_at_ist": "2026-08-24 14:08:16",
+      "call_id": "2465b4d5-4a32-4052-8951-dd6fbb72f9b5",
+      "ground_truth_metric_result": "pass",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": true,
+        "invalid_component_detected": false,
+        "selected_component": "house_flat",
+        "selected_customer_turn_index": 8,
+        "selected_agent_turn_index": 9,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": [
+          {
+            "customer_turn_index": 8,
+            "agent_turn_index": 9,
+            "intent": "change_request",
+            "component": "house_flat",
+            "agent_action": "unknown",
+            "result": "false",
+            "customer_text": "बहुत ज्यादा पते में बदलाव करना चाहूँगी।",
+            "agent_text": "समझ गई, मलविशा जी।नया पता देने के लिए कृपया सबसे पहले अपना मकान या फ्लैट नंबर बताएं।",
+            "reason": "Valid address component; this does not fail the metric even if the agent refuses the update."
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "source_035",
+      "call_started_at_ist": "2026-08-24 15:57:39",
+      "call_id": "7fbf7379-e00a-42c5-ba43-d1b24f463f3a",
+      "ground_truth_metric_result": "pass",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_036",
+      "call_started_at_ist": "2026-08-24 16:20:52",
+      "call_id": "ed85f5ce-1481-4dd7-a139-595f0a94c6dc",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_037",
+      "call_started_at_ist": "2026-08-25 10:54:30",
+      "call_id": "cb2ff597-64cc-41b3-b273-ddd4bfd81093",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_038",
+      "call_started_at_ist": "2026-08-25 15:20:33",
+      "call_id": "f2c59620-cbf2-4679-ad2a-377736635895",
+      "ground_truth_metric_result": "pass",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_039",
+      "call_started_at_ist": "2026-08-25 16:16:26",
+      "call_id": "91c6fc2a-1c12-424f-82e6-6390c930d0ee",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_040",
+      "call_started_at_ist": "2026-08-25 17:49:45",
+      "call_id": "bc5d700b-cd9f-4005-9745-c86b54720938",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_041",
+      "call_started_at_ist": "2026-08-25 18:04:39",
+      "call_id": "7e270ce1-c290-4232-89e1-7c8c2d60e363",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_042",
+      "call_started_at_ist": "2026-08-25 18:30:41",
+      "call_id": "403c8e42-0fd9-4f6e-87cf-c6169bdda121",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_043",
+      "call_started_at_ist": "2026-08-26 13:43:35",
+      "call_id": "3fb28811-5974-40b5-99e0-d250b3767e8e",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_044",
+      "call_started_at_ist": "2026-08-26 14:12:08",
+      "call_id": "9a473605-11e2-46d0-a9de-aaec8c4dc271",
+      "ground_truth_metric_result": "not_applicable",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    },
+    {
+      "case_id": "source_045",
+      "call_started_at_ist": "2026-08-26 15:54:52",
+      "call_id": "cbdb943f-e850-44d7-8302-d8d567c5fb95",
+      "ground_truth_metric_result": "pass",
+      "expected_binary_output": "false",
+      "actual_output": "false",
+      "match": true,
+      "actual_result": {
+        "metric": "Non-Compliant Address Handling",
+        "value": "false",
+        "address_change_detected": false,
+        "invalid_component_detected": false,
+        "selected_component": null,
+        "selected_customer_turn_index": null,
+        "selected_agent_turn_index": null,
+        "reason": "No prohibited address change was accepted or processed by the agent.",
+        "analyses": []
+      }
+    }
+  ]
+}
