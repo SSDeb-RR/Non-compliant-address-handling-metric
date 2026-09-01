@@ -401,6 +401,56 @@ class AddressChangeDetector:
         r"नया",
     ]
 
+    # Explicit negation of a change request must never be interpreted as a
+    # change request. These patterns are checked before normal component/change
+    # detection.
+    NEGATED_CHANGE_PATTERNS = [
+        # English
+        r"\bdo not change\b",
+        r"\bdon't change\b",
+        r"\bdo not update\b",
+        r"\bdon't update\b",
+        r"\bdo not modify\b",
+        r"\bdon't modify\b",
+        r"\bi do not want to change\b",
+        r"\bi don't want to change\b",
+        r"\bi do not want.*\bchange\b",
+        r"\bi don't want.*\bchange\b",
+        r"\bno change\b",
+        r"\bno update\b",
+        r"\bnot change\b",
+        r"\bnot to change\b",
+        r"\bchange nahi\b",
+
+        # Hindi / Hinglish
+        r"नहीं बदलना",
+        r"नहीं बदलना है",
+        r"नहीं बदलना चाहता",
+        r"नहीं बदलना चाहती",
+        r"नहीं बदलना चाहते",
+        r"नहीं बदलना चाहिये",
+        r"नहीं बदलना चाहिए",
+        r"मत बदलना",
+        r"मत बदलिए",
+        r"मत बदलना है",
+        r"बदलना नहीं है",
+        r"बदलना नहीं चाहता",
+        r"बदलना नहीं चाहती",
+        r"बदलना नहीं चाहते",
+        r"अपडेट नहीं करना",
+        r"अपडेट नहीं करना है",
+        r"अपडेट नहीं चाहता",
+        r"अपडेट नहीं चाहती",
+        r"पिनकोड नहीं बदलना",
+        r"पिनकोड नहीं बदलना है",
+        r"पिन कोड नहीं बदलना",
+        r"पिन कोड नहीं बदलना है",
+        r"राज्य नहीं बदलना",
+        r"राज्य नहीं बदलना है",
+        r"स्टेट नहीं बदलना",
+        r"स्टेट नहीं बदलना है",
+    ]
+
     EXPLICIT_ADDRESS_CHANGE_PATTERNS = [
         r"\bchange (?:my|the) address\b",
         r"\bupdate (?:my|the) address\b",
@@ -615,6 +665,10 @@ class AddressChangeDetector:
         return cls._matches(text, cls.EXPLICIT_ADDRESS_CHANGE_PATTERNS)
 
     @classmethod
+    def is_negated_change(cls, text: str) -> bool:
+        return cls._matches(text, cls.NEGATED_CHANGE_PATTERNS)
+
+    @classmethod
     def detect_component(cls, text: str) -> AddressComponent:
         """
         Invalid categories have priority.
@@ -652,6 +706,11 @@ class AddressChangeDetector:
     def detect_intent(cls, text: str) -> AddressIntent:
         text = TextNormalizer.normalize(text)
 
+        # A negated request explicitly says the customer does NOT want the
+        # address component changed. Never classify it as CHANGE_REQUEST.
+        if cls.is_negated_change(text):
+            return AddressIntent.NONE
+
         if cls.has_explicit_address_change(text):
             return AddressIntent.CHANGE_REQUEST
 
@@ -687,6 +746,11 @@ class AddressChangeDetector:
         conversation is already in address-change context.
         """
         text = TextNormalizer.normalize(text)
+
+        # A negated follow-up such as "pincode नहीं बदलना चाहता" cancels the
+        # apparent component request rather than confirming it.
+        if cls.is_negated_change(text):
+            return AddressIntent.NONE
 
         component = cls.detect_component(text)
 
@@ -893,6 +957,15 @@ class NonCompliantAddressHandlingMetric:
 
         for turn in turns:
             if turn.role == TurnRole.CUSTOMER:
+                # Negated change requests must clear any pending address-change
+                # state so a previously mentioned invalid component cannot leak
+                # into a later, separate valid address update.
+                if AddressChangeDetector.is_negated_change(turn.text):
+                    address_change_context = False
+                    pending_component = AddressComponent.UNKNOWN
+                    pending_customer_index = None
+                    continue
+
                 intent = AddressChangeDetector.detect_intent(turn.text)
                 component = AddressChangeDetector.detect_component(turn.text)
 
